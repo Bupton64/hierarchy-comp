@@ -1,10 +1,4 @@
-export type RawTreeNode = {
-  id: number;
-  name: string;
-  gender: string;
-  children: number[];
-  parents: number[];
-};
+import { RawTreeNode } from "../types";
 
 const familyTree: RawTreeNode[] = [
   {

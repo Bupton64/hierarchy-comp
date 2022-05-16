@@ -9,9 +9,8 @@ import ReactFlow, {
   useNodesState
 } from "react-flow-renderer";
 import "./hierarchyGraph.css";
-import { RawTreeNode } from "../../data/sampleData";
 import NodeLayout from "../NodeLayout/NodeLayout";
-import { NodeData } from "../../types";
+import { NodeData, RawTreeNode } from "../../types";
 
 type HierarchyGraphProps = {
   data: RawTreeNode[];

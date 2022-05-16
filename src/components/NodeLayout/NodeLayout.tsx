@@ -1,5 +1,5 @@
-import { RawTreeNode } from "../../data/sampleData";
 import React from "react";
+import { RawTreeNode } from "../../types";
 
 import "./nodeLayout.css";
 
