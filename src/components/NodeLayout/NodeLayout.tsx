@@ -1,5 +1,6 @@
 import React from "react";
 import { RawTreeNode } from "../../types";
+import GroupIcon from "../GroupIcon";
 
 import "./nodeLayout.css";
 
@@ -20,6 +21,9 @@ const PersonLayout = (props: PersonLayoutProps) => {
         props.person.gender === "male" ? "person male" : "person female"
       }
     >
+      <div className="icon">
+        <GroupIcon />
+      </div>
       {props.person.name}
     </div>
   );
