@@ -1,0 +1,12 @@
+.layoutflow {
+  flex-grow: 1;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.react-flow__node {
+  border: none;
+  box-shadow: none !important;
+  width: 150px;
+}

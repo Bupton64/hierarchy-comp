@@ -1,0 +1,19 @@
+.person {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  font-size: large;
+  border-radius: 5px;
+  margin: 8px;
+  text-overflow: ellipsis;
+  white-space: none;
+  overflow: hidden;
+}
+
+.male {
+  background-color: lightblue;
+}
+
+.female {
+  background-color: lightpink;
+}
